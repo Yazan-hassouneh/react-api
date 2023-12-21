@@ -1,0 +1,35 @@
+.carousel {
+    max-height: 600px;
+    min-height: 400px;
+}
+.carousel-inner {
+    max-height: 600px;
+    min-height: 400px;
+}
+.carousel-inner > div{
+    max-height: 600px;
+    min-height: 400px;
+}
+.carousel-inner img{
+    max-height: 600px;
+    
+}
+.bg-image {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+.carousel-item:first-child > div {
+    background-image: url(../imges/slider-3.jpg);
+}
+.carousel-item:nth-child(2) div {
+    background-image: url(../imges/slider_bkg_look.jpg);
+}
+.carousel-item:nth-child(3) div {
+    background-image: url(../imges/sloder-2.jpg);
+}
+@media screen and (max-width: 776px) {
+    .bg-image {
+        height: 500px;
+    }
+}
